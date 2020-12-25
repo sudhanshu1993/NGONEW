@@ -15,7 +15,7 @@ $(function() {
         var scroll = $(window).scrollTop();
         if (scroll < 110) {
             $(".header_navbar").removeClass("sticky");
-            $(".navbar_transparent img").attr("src", "assets/images/logo-white.png");
+            $(".navbar_transparent img").attr("src", "assets/images/logo.png");
         } else{
             $(".header_navbar").addClass("sticky");
             $(".navbar_transparent img").attr("src", "assets/images/logo.png");
